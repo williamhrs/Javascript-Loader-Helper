@@ -13,7 +13,7 @@ function load_js($js){
     
     $return = '';
     foreach($js as $j){
-        $return .= '<script type="text/javascript" src="' . APPPATH . '/views/js/' . $j . '"></script>' . "\n";
+        $return .= '<script type="text/javascript" src="' . APPPATH . 'views/js/' . $j . '"></script>' . "\n";
     }
     return $return;
 }
